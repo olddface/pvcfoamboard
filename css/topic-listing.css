@@ -3,7 +3,7 @@
   --primary-color:                #13547a;
   --secondary-color:              #d37121;
   --section-bg-color:             #fff9f0;
-  --custom-btn-bg-color:          #b6572f;
+  --custom-btn-bg-color:          #d37121;
   --custom-btn-bg-hover-color:    #13547a;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -736,7 +736,7 @@ blockquote {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  background-image: url('../asset-folder/Website/PVCFOAMBOARD.CO.ID/modern-white-kitchen-interior-with-furniturekitchen-interior-with-white-wall\ \(1\).webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
