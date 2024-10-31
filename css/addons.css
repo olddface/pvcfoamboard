@@ -4,7 +4,7 @@
     text-align: center;
 }
 .hero-section .container img {
-    width: 80%;
+    width: 100%;
     align-self: center;
     height: auto;
     box-shadow: 
@@ -93,6 +93,8 @@
     }
 }
 
-@media (max-width: 1024px) { 
-    
+@media (min-width: 1024px) { 
+    /* .hero-section .container img {
+        width: 80%;
+    } */
 }
