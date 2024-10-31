@@ -395,13 +395,20 @@ strong {
   border: 0;
 } */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .navbar .dropdown:hover .dropdown-menu {
     opacity: 1;
     margin-top: 0;
     pointer-events: auto;
   }
 
+
+  
+  .whats-app a img {
+    width: 4rem;
+    height: 4rem;
+    margin: 12px;
+  }
   
 
 }
@@ -1055,7 +1062,9 @@ blockquote {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (max-width: 991px) {
+@media (max-width: 992px) {
+  
+
   h1 {
     font-size: 48px;
   }
@@ -1144,12 +1153,16 @@ blockquote {
     padding-bottom: 0;
   }
 
+  .hero-section {
+    color: #000000;  
+  }
   
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
   
+
   h1 {
     font-size: 36px;
   }
