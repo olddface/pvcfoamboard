@@ -1,3 +1,13 @@
+// redirect to /index.html and then scroll to specifict section
+  function navigateToSection(event, page,  section){
+    event.preventDefault;
+    const current = window.location.href;
+    const toUrl = window.location.origin + page + section;
+    if (current != toUrl) {
+      window.location.href = toUrl;
+    }
+  }
+
 
   (function ($) {
   

@@ -266,6 +266,7 @@ strong {
 -----------------------------------------*/
 .sticky-wrapper {
   position: absolute;
+  
   top: 0;
   right: 0;
   left: 0;
@@ -541,6 +542,7 @@ strong {
 
 .featured-section .row .tema {
   text-align: center;
+  color: white;
 }
 
 .custom-block {
@@ -554,7 +556,7 @@ strong {
 
 .custom-block:hover {
   background-color: var(--secondary-color);
-  transform: translateY(-3px);
+  transform: translateY(-10px);
 }
 
 .custom-block > a {
@@ -935,7 +937,8 @@ blockquote {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  border-bottom: 10px solid var(--secondary-color);
+  border-bottom: 15px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
   position: relative;
 }
 
