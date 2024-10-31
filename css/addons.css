@@ -72,11 +72,7 @@
     z-index: 10;
 }
 
-@media (max-width: 640px) { 
-    /* .whats-app {
-        width: calc(100% - 40px);
-    } */
-}
+
 
 @media (min-width: 768px) {  
     .navbar-brand img {
@@ -91,10 +87,4 @@
         background-color: rgb(0, 0, 0);
         width: 830px;
     }
-}
-
-@media (min-width: 1024px) { 
-    /* .hero-section .container img {
-        width: 80%;
-    } */
 }
