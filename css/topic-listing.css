@@ -236,7 +236,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #e68c43 0%, #b15f1c 100%);
+  background-image: var(--white-color);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -266,7 +266,6 @@ strong {
 -----------------------------------------*/
 .sticky-wrapper {
   position: absolute;
-  
   top: 0;
   right: 0;
   left: 0;
@@ -274,7 +273,7 @@ strong {
 
 .sticky-wrapper.is-sticky .navbar {
   background-color: rgba(255, 255, 255, 0.475);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(5px);
   filter: drop-shadow(0 2mm 7mm rgba(0, 0, 0, 0.4));
 }
 
@@ -284,18 +283,16 @@ strong {
   z-index: 9;
 }
 
-/* .navbar-brand {
+.navbar-brand {
   position: relative;
-  width: 20px;
-  height: 20px;
-  overflow: hidden;
-} */
+  width: 40px;
+  height: 40px;
+}
 
 .navbar-brand img {
-  width: 60px;
   height: 100%;
-  /* margin-bottom: 2%; */
 }
+
 .navbar-brand:hover {
   display: block;
 }
@@ -395,23 +392,6 @@ strong {
   border: 0;
 } */
 
-@media (min-width: 992px) {
-  .navbar .dropdown:hover .dropdown-menu {
-    opacity: 1;
-    margin-top: 0;
-    pointer-events: auto;
-  }
-
-
-  
-  .whats-app a img {
-    width: 4rem;
-    height: 4rem;
-    margin: 12px;
-  }
-  
-
-}
 
 .navbar-icon {
   background: var(--white-color);
@@ -501,7 +481,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(180deg, #f8fcff 0%, #f8fcff 40%, #d37121 90%);
+  background-image: var(--white-color);
   position: relative;
   overflow: hidden;
   padding-top: 100px;
@@ -525,6 +505,29 @@ strong {
   margin-bottom: 0;
   padding-left: 0;
 }
+
+
+/* hero accordio */
+
+.hero-section .text-ngumpet {
+  background: transparent;
+  .accordion-item {
+    background: white;
+  }
+  .accordion-item {
+    color: #332c2c;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.7);
+  }
+  .accordion-item:hover {
+    color: #000000;
+    border-top: 2px solid rgb(202, 77, 28);
+  }
+
+  .accordion-body {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+/* --------- */
 
 .hero-section button[type="submit"] {
   background-color: var(--primary-color);
@@ -1062,6 +1065,28 @@ blockquote {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+@media (min-width: 992px) {
+  .hero-section .pante .image-holder{
+    width: calc(93% / 3);
+  }
+  .navbar .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    margin-top: 0;
+    pointer-events: auto;
+  }
+
+
+  
+  .whats-app a img {
+    width: 4rem;
+    height: 4rem;
+    margin: 12px;
+  }
+  
+
+}
+
+
 @media (max-width: 992px) {
   
 
