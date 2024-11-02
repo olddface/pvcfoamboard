@@ -245,6 +245,11 @@ strong {
   height: 100%;
 }
 
+.hero-section .container .cnc {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 .breadcrumb-item+.breadcrumb-item::before,
 .breadcrumb-item a:hover,
 .breadcrumb-item.active {
@@ -378,7 +383,7 @@ strong {
   color: var(--primary-color);
 }
 
-/* .navbar .dropdown-toggle::after {
+.navbar .dropdown-toggle::after {
   content: "\f282";
   display: inline-block;
   font-family: bootstrap-icons !important;
@@ -394,7 +399,7 @@ strong {
   position: relative;
   left: 2px;
   border: 0;
-} */
+} 
 
 
 .navbar-icon {
@@ -490,6 +495,10 @@ strong {
   overflow: hidden;
   padding-top: 100px;
   padding-bottom: 150px;
+}
+
+.hero-section .text-hero {
+  text-align: justify;
 }
 
 .hero-section .input-group {

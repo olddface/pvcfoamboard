@@ -12,13 +12,12 @@
 .hero-section .image-holder img {
     width: 100%;
     height: 100%;
-    transition: transform 0.1s ease;
+    transition: transform 0.3s ease;
 }
 
 .hero-section .image-holder img:hover {
-    transform: scale(1.02);
+    transform: scale(1.2);
 }
-
 .whats-app  a{
     position: fixed;
     align-items: center;
