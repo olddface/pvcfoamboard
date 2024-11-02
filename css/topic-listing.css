@@ -3,8 +3,8 @@
   --primary-color:                #13547a;
   --secondary-color:              #d37121;
   --section-bg-color:             #fff9f0;
-  --custom-btn-bg-color:          #d37121;
-  --custom-btn-bg-hover-color:    #13547a;
+  --custom-btn-bg-color:          #ffffff;
+  --custom-btn-bg-hover-color:    #d37121;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
@@ -221,7 +221,7 @@ strong {
 }
 
 .custom-border-btn:hover {
-  background: var(--custom-btn-bg-color);
+  background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
   color: var(--white-color);
 }
@@ -248,7 +248,7 @@ strong {
 .breadcrumb-item+.breadcrumb-item::before,
 .breadcrumb-item a:hover,
 .breadcrumb-item.active {
-  color: var(--white-color);
+  color: var(--secondary-color);
 }
 
 .site-header .custom-icon {
@@ -604,6 +604,17 @@ strong {
   padding: 0;
 }
 
+.custom-img {
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.custom-img img {
+  width: auto;
+  height: 100%;
+}
+
 .custom-block-overlay > a {
   height: 100%;
 }
@@ -753,7 +764,7 @@ blockquote {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../asset-folder/Website/PVCFOAMBOARD.CO.ID/modern-white-kitchen-interior-with-furniturekitchen-interior-with-white-wall\ \(1\).webp');
+  background-image: url('../asset-folder/IMAGES/modern-white-kitchen-interior-with-furniturekitchen-interior-with-white-wall\ \(1\).webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
